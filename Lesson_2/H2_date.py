@@ -5,7 +5,7 @@ from datetime import datetime, timedelta
 
 def time_machine():
     """
-
+        Расчет разницы во времени 2-мя способами: через timedelta и через timestamp
     """
     today = datetime.now()
     timedelta_day = timedelta(days=1)
@@ -24,6 +24,7 @@ def time_machine():
 
 def time_convert():
     """
+        Превращаем дату из 1 формата в другой
     """
     date_str = '01/01/25 12:10:03.234567'
     date_date = datetime.strptime(date_str, '%d/%m/%y %H:%M:%S.%f')
