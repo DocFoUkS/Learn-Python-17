@@ -1,0 +1,7 @@
+[
+  "koans/about_variables.py::test_can_assign_to_variable",
+  "koans/about_variables.py::test_can_assign_different_types",
+  "koans/about_variables.py::test_variables_names_are_case_sensitive",
+  "koans/about_variables.py::test_variables_names_can_have_digits",
+  "koans/about_variables.py::test_variables_names_can_have_underscore"
+]
