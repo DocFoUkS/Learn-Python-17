@@ -84,6 +84,8 @@ def start_message(message):
                 for el in dict_city[message.chat.id]:
                     if el[0]==first_bukv:
                         answer=el.title()
+                        dict_city[message.chat.id].remove(town)
+                        dict_city[message.chat.id].remove(el)
                         mark=1
                         break
                 if mark==0:
