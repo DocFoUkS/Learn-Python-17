@@ -1,6 +1,7 @@
 settings.py
 *.log
-*.txt
+log*
+referat*
 .vscode/
 .idea/
 env/
@@ -8,3 +9,4 @@ env/
 __pycache__/
 BOT_env/
 *.code-workspace
+*env/
