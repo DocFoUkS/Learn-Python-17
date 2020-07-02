@@ -1,6 +1,6 @@
 settings.py
 *.log
-log*
+log_*
 referat*
 .vscode/
 .idea/
